@@ -1,11 +1,11 @@
 /*!
  * jQuery UI 1.8.22
  *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Copyright 2012, AUTHORS.txt (https://jqueryui.com/about)
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://docs.jquery.com/UI
+ * https://docs.jquery.com/UI
  */
 (function( $, undefined ) {
 
@@ -251,7 +251,7 @@ $(function() {
 	$.support.selectstart = "onselectstart" in div;
 
 	// set display to none to avoid a layout bug in IE
-	// http://dev.jquery.com/ticket/4014
+	// https://dev.jquery.com/ticket/4014
 	body.removeChild( div ).style.display = "none";
 });
 
@@ -335,11 +335,11 @@ $.extend( $.ui, {
 /*!
  * jQuery UI Widget 1.8.22
  *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Copyright 2012, AUTHORS.txt (https://jqueryui.com/about)
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://docs.jquery.com/UI/Widget
+ * https://docs.jquery.com/UI/Widget
  */
 (function( $, undefined ) {
 
@@ -350,7 +350,7 @@ if ( $.cleanData ) {
 		for ( var i = 0, elem; (elem = elems[i]) != null; i++ ) {
 			try {
 				$( elem ).triggerHandler( "remove" );
-			// http://bugs.jquery.com/ticket/8235
+			// https://bugs.jquery.com/ticket/8235
 			} catch( e ) {}
 		}
 		_cleanData( elems );
@@ -364,7 +364,7 @@ if ( $.cleanData ) {
 					$( "*", this ).add( [ this ] ).each(function() {
 						try {
 							$( this ).triggerHandler( "remove" );
-						// http://bugs.jquery.com/ticket/8235
+						// https://bugs.jquery.com/ticket/8235
 						} catch( e ) {}
 					});
 				}
@@ -607,11 +607,11 @@ $.Widget.prototype = {
 /*!
  * jQuery UI Accordion 1.8.22
  *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Copyright 2012, AUTHORS.txt (https://jqueryui.com/about)
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://docs.jquery.com/UI/Accordion
+ * https://docs.jquery.com/UI/Accordion
  *
  * Depends:
  *	jquery.ui.core.js
@@ -1218,11 +1218,11 @@ $.extend( $.ui.accordion, {
 /*!
  * jQuery UI Tabs 1.8.22
  *
- * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Copyright 2012, AUTHORS.txt (https://jqueryui.com/about)
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://docs.jquery.com/UI/Tabs
+ * https://docs.jquery.com/UI/Tabs
  *
  * Depends:
  *	jquery.ui.core.js
@@ -1597,7 +1597,7 @@ $.widget( "ui.tabs", {
 						showTab( el, $show );
 					});
 
-					// TODO make passing in node possible, see also http://dev.jqueryui.com/ticket/3171
+					// TODO make passing in node possible, see also https://dev.jqueryui.com/ticket/3171
 					self.load( self.anchors.index( this ) );
 
 					this.blur();
